@@ -11,7 +11,7 @@ def generate_qrcode(text):
     qr.add_data(text)
     qr.make(fit=True)
     img = qr.make_image(fill="black", back_color="white")
-    img.save(r'PROJECTS\qr_code\qrimg.png')
+    img.save('file path')
 
 user_input = input("Enter the webpage: ")
 generate_qrcode(user_input)
